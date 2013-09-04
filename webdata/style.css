@@ -1,0 +1,80 @@
+/* I, Raphael Champeimont, the author of this work,
+ * hereby release it into the public domain.
+ * This applies worldwide.
+ * 
+ * In case this is not legally possible:
+ * I grant anyone the right to use this work for any purpose,
+ * without any conditions, unless such conditions are required by law.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ */
+body {
+  background: white;
+  color: black;
+}
+a:link {
+  color: #00f;
+  background: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: #060;
+  background: transparent;
+  text-decoration: underline;
+}
+a:link:hover {
+  color: white;
+  background: #006;
+  text-decoration: underline;
+}
+a:visited:hover {
+  color: white;
+  background: #060;
+  text-decoration: underline;
+}
+a:link:active {
+  color: white;
+  background: #00f;
+  text-decoration: underline;
+}
+a:visited:active {
+  color: white;
+  background: #0d0;
+  text-decoration: underline;
+}
+h1 {
+  color: #005;
+  text-align: left;
+  font-size: 150%;
+  font-weight: bold;
+  font-variant: normal;
+  font-style: italic;
+}
+em {
+  font-style: italic;
+  background: #0f9;
+}
+pre {
+  font-family: monospace;
+}
+ul {
+  list-style: square outside none;
+}
+ol {
+  list-style: decimal outside none;
+}
+.directions {
+  background: #dddddd;
+  text-align: center;
+}
+.publicdomain {
+  font-size: 80%;
+  padding: 5px;
+  border: 1px solid green;
+}

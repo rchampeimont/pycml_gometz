@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cml_gometz SYSTEM "http://www.almacha.org/cm-gometz.dtd">
+<!--
+
+LICENSE
+=======
+The following license applies to:
+- all the images in this directory
+- the index.xml file
+====================================================================
+I, Raphael Champeimont, the author of this work,
+hereby release it into the public domain.
+This applies worldwide.
+
+In case this is not legally possible:
+I grant anyone the right to use this work for any purpose,
+without any conditions, unless such conditions are required by law.
+====================================================================
+
+
+FILE NAMING CONVENTION
+======================
+Rules for file names:
+0 x 1 2 3 4 5 6 7 8 . j p g
+    P P P P P P P D
+P = number of the place where the user is
+D = direction where he looks:
+    North 0
+    East  1
+    South 2
+    West  3
+    Up(s)/Down(s)/Other(s) {4,5,...,F}
+P and D are hex digits. 
+
+-->
+<cml_gometz>
+  <settings>
+    <startplaces>
+      <start first="00000311" title="Le Vieux Village"/>
+      <start first="00000200" title="L'Allée de Villeneuve"/>
+    </startplaces>
+    <resolution width="1024"/>
+  </settings>
+  <body>
+    <img id="00000200" src="00000200.jpg"
+      left="00000203" right="00000201"/>
+    <img id="00000201" src="00000201.jpg"
+      left="00000200" right="00000202" forward="00000211"/>
+    <img id="00000202" src="00000202.jpg"
+      left="00000201" right="00000203"/>
+    <img id="00000203" src="00000203.jpg"
+      left="00000202" right="00000200" forward="00000233"/>
+    <img id="00000211" src="00000211.jpg"
+      left="00000213" right="00000213" forward="00000221"/>
+    <img id="00000213" src="00000213.jpg"
+      left="00000211" right="00000211" forward="00000203"/>
+    <img id="00000220" src="00000220.jpg"
+      left="00000223" right="00000221"/>
+    <img id="00000221" src="00000221.jpg"
+      left="00000220" right="00000222"/>
+    <img id="00000222" src="00000222.jpg"
+      left="00000221" right="00000223"/>
+    <img id="00000223" src="00000223.jpg"
+      left="00000222" right="00000220" forward="00000213"/>
+    <img id="00000230" src="00000230.jpg"
+      left="00000233" right="00000231"/>
+    <img id="00000231" src="00000231.jpg"
+      left="00000230" right="00000232" forward="00000201"/>
+    <img id="00000232" src="00000232.jpg"
+      left="00000231" right="00000233"/>
+    <img id="00000233" src="00000233.jpg"
+      left="00000232" right="00000230" forward="00000243"/>
+    <img id="00000240" src="00000240.jpg"
+      left="00000243" right="00000241"/>
+    <img id="00000241" src="00000241.jpg"
+      left="00000240" right="00000242" forward="00000231"/>
+    <img id="00000242" src="00000242.jpg"
+      left="00000241" right="00000243"/>
+    <img id="00000243" src="00000243.jpg"
+      left="00000242" right="00000240" forward="00000250"/>
+    <img id="00000250" src="00000250.jpg"
+      left="00000253" right="00000251" forward="00000260"/>
+    <img id="00000251" src="00000251.jpg"
+      left="00000250" right="00000252"/>
+    <img id="00000252" src="00000252.jpg"
+      left="00000251" right="00000253" forward="00000241"/>
+    <img id="00000253" src="00000253.jpg"
+      left="00000252" right="00000250" forward="00000283"/>
+    <img id="00000260" src="00000260.jpg"
+      left="00000262" right="00000262" forward="00000273"/>
+    <img id="00000262" src="00000262.jpg"
+      left="00000260" right="00000260" forward="00000252"/>
+    <img id="00000270" src="00000270.jpg"
+      left="00000273" right="00000271"/>
+    <img id="00000271" src="00000271.jpg"
+      left="00000270" right="00000273" forward="00000262"/>
+    <img id="00000273" src="00000273.jpg"
+      left="00000271" right="00000270"/>
+    <img id="00000280" src="00000280.jpg"
+      left="00000283" right="00000281"/>
+    <img id="00000281" src="00000281.jpg"
+      left="00000280" right="00000282" forward="00000251"/>
+    <img id="00000282" src="00000282.jpg"
+      left="00000281" right="00000283"/>
+    <img id="00000283" src="00000283.jpg"
+      left="00000282" right="00000280"/>
+    <img id="00000311" src="00000311.jpg"
+      left="00000313" right="00000313" forward="00000321"/>
+    <img id="00000313" src="00000313.jpg"
+      left="00000311" right="00000311"/>
+    <img id="00000320" src="00000320.jpg"
+      left="00000324" right="00000321"/>
+    <img id="00000321" src="00000321.jpg"
+      left="00000320" right="00000322"/>
+    <img id="00000322" src="00000322.jpg"
+      left="00000321" right="00000323" forward="00000332"/>
+    <img id="00000323" src="00000323.jpg"
+      left="00000322" right="00000324"/>
+    <img id="00000324" src="00000324.jpg"
+      left="00000323" right="00000320" forward="00000313"/>
+    <img id="00000330" src="00000330.jpg"
+      left="00000333" right="00000332" forward="00000324"/>
+    <img id="00000332" src="00000332.jpg"
+      left="00000330" right="00000333" forward="00000342"/>
+    <img id="00000333" src="00000333.jpg"
+      left="00000332" right="00000330"/>
+    <img id="00000340" src="00000340.jpg"
+      left="00000342" right="00000342" forward="00000330"/>
+    <img id="00000342" src="00000342.jpg"
+      left="00000340" right="00000340" forward="00000353"/>
+    <img id="00000350" src="00000350.jpg"
+      left="00000354" right="00000351" forward="00000340"/>
+    <img id="00000351" src="00000351.jpg"
+      left="00000350" right="00000352"/>
+    <img id="00000352" src="00000352.jpg"
+      left="00000351" right="00000353"/>
+    <img id="00000353" src="00000353.jpg"
+      left="00000352" right="00000354" forward="00000382"/>
+    <img id="00000354" src="00000354.jpg"
+      left="00000353" right="00000350" forward="00000363"/>
+    <img id="00000361" src="00000361.jpg"
+      left="00000363" right="00000363" forward="00000351"/>
+    <img id="00000363" src="00000363.jpg"
+      left="00000361" right="00000361" forward="00000373"/>
+    <img id="00000370" src="00000370.jpg"
+      left="00000373" right="00000371"/>
+    <img id="00000371" src="00000371.jpg"
+      left="00000370" right="00000372" forward="00000361"/>
+    <img id="00000372" src="00000372.jpg"
+      left="00000371" right="00000373"/>
+    <img id="00000373" src="00000373.jpg"
+      left="00000372" right="00000370"/>
+    <img id="00000380" src="00000380.jpg"
+      left="00000382" right="00000382" forward="00000351"/>
+    <img id="00000382" src="00000382.jpg"
+      left="00000380" right="00000380" forward="00000392"/>
+    <img id="00000390" src="00000390.jpg"
+      left="00000392" right="00000392" forward="00000380"/>
+    <img id="00000392" src="00000392.jpg"
+      left="00000390" right="00000390" forward="000003a3"/>
+    <img id="000003a1" src="000003a1.jpg"
+      left="000003a3" right="000003a3" forward="00000390"/>
+    <img id="000003a3" src="000003a3.jpg"
+      left="000003a1" right="000003a1" forward="000003b3"/>
+    <img id="000003b0" src="000003b0.jpg"
+      left="000003b3" right="000003b1" forward="000003a1"/>
+    <img id="000003b1" src="000003b1.jpg"
+      left="000003b0" right="000003b3"/>
+    <img id="000003b3" src="000003b3.jpg"
+      left="000003b1" right="000003b0" forward="000003c2"/>
+    <img id="000003c1" src="000003c1.jpg"
+      left="000003c3" right="000003c2" forward="000003b1"/>
+    <img id="000003c2" src="000003c2.jpg"
+      left="000003c1" right="000003c3" forward="000003d2"/>
+    <img id="000003c3" src="000003c3.jpg"
+      left="000003c2" right="000003c1"/>
+    <img id="000003d0" src="000003d0.jpg"
+      left="000003d2" right="000003d1" forward="000003c1"/>
+    <img id="000003d1" src="000003d1.jpg"
+      left="000003d0" right="000003d2" forward="000003e1"/>
+    <img id="000003d2" src="000003d2.jpg"
+      left="000003d1" right="000003d0"/>
+    <img id="000003e0" src="000003e0.jpg"
+      left="000003e3" right="000003e1" forward="000003f0"/>
+    <img id="000003e1" src="000003e1.jpg"
+      left="000003e0" right="000003e2"/>
+    <img id="000003e2" src="000003e2.jpg"
+      left="000003e1" right="000003e3" forward="00000403"/>
+    <img id="000003e3" src="000003e3.jpg"
+      left="000003e2" right="000003e0" forward="000003d0"/>
+    <img id="000003f0" src="000003f0.jpg"
+      left="000003f2" right="000003f2"/>
+    <img id="000003f2" src="000003f2.jpg"
+      left="000003f0" right="000003f0" forward="000003e2"/>
+    <img id="00000400" src="00000400.jpg"
+      left="00000404" right="00000401"/>
+    <img id="00000401" src="00000401.jpg"
+      left="00000400" right="00000402"/>
+    <img id="00000402" src="00000402.jpg"
+      left="00000401" right="00000403" forward="00000412"/>
+    <img id="00000403" src="00000403.jpg"
+      left="00000402" right="00000404" forward="00000472"/>
+    <img id="00000404" src="00000404.jpg"
+      left="00000403" right="00000400" forward="000003e0"/>
+    <img id="00000410" src="00000410.jpg"
+      left="00000413" right="00000412" forward="00000400"/>
+    <img id="00000412" src="00000412.jpg"
+      left="00000410" right="00000413" forward="00000422"/>
+    <img id="00000413" src="00000413.jpg"
+      left="00000412" right="00000410"/>
+    <img id="00000420" src="00000420.jpg"
+      left="00000423" right="00000421" forward="00000410"/>
+    <img id="00000421" src="00000421.jpg"
+      left="00000420" right="00000422" forward="00000431"/>
+    <img id="00000422" src="00000422.jpg"
+      left="00000421" right="00000423" forward="000004f3"/>
+    <img id="00000423" src="00000423.jpg"
+      left="00000422" right="00000420" forward="00000473"/>
+    <img id="00000431" src="00000431.jpg"
+      left="00000420" right="00000422" forward="00000441"/>
+    <img id="00000441" src="00000441.jpg"
+      left="00000443" right="00000443" forward="00000451"/>
+    <img id="00000443" src="00000443.jpg"
+      left="00000441" right="00000441" forward="00000423"/>
+    <img id="00000450" src="00000450.jpg"
+      left="00000453" right="00000451"/>
+    <img id="00000451" src="00000451.jpg"
+      left="00000450" right="00000452" forward="00000461"/>
+    <img id="00000452" src="00000452.jpg"
+      left="00000451" right="00000453"/>
+    <img id="00000453" src="00000453.jpg"
+      left="00000452" right="00000450" forward="00000443"/>
+    <img id="00000460" src="00000460.jpg"
+      left="00000465" right="00000461"/>
+    <img id="00000461" src="00000461.jpg"
+      left="00000460" right="00000462"/>
+    <img id="00000462" src="00000462.jpg"
+      left="00000461" right="00000463"/>
+    <img id="00000463" src="00000463.jpg"
+      left="00000462" right="00000464"/>
+    <img id="00000464" src="00000464.jpg"
+      left="00000463" right="00000465" forward="00000453"/>
+    <img id="00000465" src="00000465.jpg"
+      left="00000464" right="00000460"/>
+    <img id="00000470" src="00000470.jpg"
+      left="00000473" right="00000471" forward="00000404"/>
+    <img id="00000471" src="00000471.jpg"
+      left="00000470" right="00000472" forward="00000421"/>
+    <img id="00000472" src="00000472.jpg"
+      left="00000471" right="00000473" forward="00000482"/>
+    <img id="00000473" src="00000473.jpg"
+      left="00000472" right="00000470"/>
+    <img id="00000480" src="00000480.jpg"
+      left="00000483" right="00000481" forward="00000470"/>
+    <img id="00000481" src="00000481.jpg"
+      left="00000480" right="00000482"/>
+    <img id="00000482" src="00000482.jpg"
+      left="00000481" right="00000483" forward="00000492"/>
+    <img id="00000483" src="00000483.jpg"
+      left="00000482" right="00000480"/>
+    <img id="00000490" src="00000490.jpg"
+      left="00000493" right="00000492" forward="00000480"/>
+    <img id="00000492" src="00000492.jpg"
+      left="00000490" right="00000493" forward="000004a2"/>
+    <img id="00000493" src="00000493.jpg"
+      left="00000492" right="00000490" forward="000004c2"/>
+    <img id="000004a0" src="000004a0.jpg"
+      left="000004a3" right="000004a1" forward="00000490"/>
+    <img id="000004a1" src="000004a1.jpg"
+      left="000004a0" right="000004a2" forward="000004d2"/>
+    <img id="000004a2" src="000004a2.jpg"
+      left="000004a1" right="000004a3" forward="000004b2"/>
+    <img id="000004a3" src="000004a3.jpg"
+      left="000004a2" right="000004a0"/>
+    <img id="000004b0" src="000004b0.jpg"
+      left="000004b3" right="000004b2" forward="000004a0"/>
+    <img id="000004b2" src="000004b2.jpg"
+      left="000004b0" right="000004b3" forward="00000562"/>
+    <img id="000004b3" src="000004b3.jpg"
+      left="000004b2" right="000004b0" forward="000004c0"/>
+    <img id="000004c0" src="000004c0.jpg"
+      left="000004c3" right="000004c2" forward="00000490"/>
+    <img id="000004c2" src="000004c2.jpg"
+      left="000004c0" right="000004c3" forward="000004b2"/>
+    <img id="000004c3" src="000004c3.jpg"
+      left="000004c2" right="000004c0" forward="00000573"/>
+    <img id="000004d0" src="000004d0.jpg"
+      left="000004d3" right="000004d1"/>
+    <img id="000004d1" src="000004d1.jpg"
+      left="000004d0" right="000004d2" forward="000004e1"/>
+    <img id="000004d2" src="000004d2.jpg"
+      left="000004d1" right="000004d3"/>
+    <img id="000004d3" src="000004d3.jpg"
+      left="000004d2" right="000004d0" forward="000004a3"/>
+    <img id="000004e0" src="000004e0.jpg"
+      left="000004e3" right="000004e1"/>
+    <img id="000004e1" src="000004e1.jpg"
+      left="000004e0" right="000004e2" forward="000004f1"/>
+    <img id="000004e2" src="000004e2.jpg"
+      left="000004e1" right="000004e3" forward="00000502"/>
+    <img id="000004e3" src="000004e3.jpg"
+      left="000004e2" right="000004e0" forward="000004d3"/>
+    <img id="000004f0" src="000004f0.jpg"
+      left="000004f3" right="000004f1" forward="00000420"/>
+    <img id="000004f1" src="000004f1.jpg"
+      left="000004f0" right="000004f3"/>
+    <img id="000004f3" src="000004f3.jpg"
+      left="000004f1" right="000004f0" forward="000004e3"/>
+    <img id="00000500" src="00000500.jpg"
+      left="00000502" right="00000501" forward="000004e0"/>
+    <img id="00000501" src="00000501.jpg"
+      left="00000500" right="00000502" forward="00000542"/>
+    <img id="00000502" src="00000502.jpg"
+      left="00000501" right="00000500" forward="00000512"/>
+    <img id="00000510" src="00000510.jpg"
+      left="00000512" right="00000512" forward="00000500"/>
+    <img id="00000512" src="00000512.jpg"
+      left="00000510" right="00000510" forward="00000522"/>
+    <img id="00000520" src="00000520.jpg"
+      left="00000522" right="00000521" forward="00000510"/>
+    <img id="00000521" src="00000521.jpg"
+      left="00000520" right="00000522" forward="00000531"/>
+    <img id="00000522" src="00000522.jpg"
+      left="00000521" right="00000520" forward="00000553"/>
+    <img id="00000530" src="00000530.jpg"
+      left="00000533" right="00000531" forward="00000540"/>
+    <img id="00000531" src="00000531.jpg"
+      left="00000530" right="00000532"/>
+    <img id="00000532" src="00000532.jpg"
+      left="00000531" right="00000533"/>
+    <img id="00000533" src="00000533.jpg"
+      left="00000532" right="00000530" forward="00000522"/>
+    <img id="00000540" src="00000540.jpg"
+      left="00000543" right="00000542"/>
+    <img id="00000542" src="00000542.jpg"
+      left="00000540" right="00000543" forward="00000532"/>
+    <img id="00000543" src="00000543.jpg"
+      left="00000542" right="00000540" forward="00000502"/>
+    <img id="00000551" src="00000551.jpg"
+      left="00000553" right="00000553" forward="00000521"/>
+    <img id="00000553" src="00000553.jpg"
+      left="00000551" right="00000551" forward="00000562"/>
+    <img id="00000560" src="00000560.jpg"
+      left="00000562" right="00000561" forward="000004b0"/>
+    <img id="00000561" src="00000561.jpg"
+      left="00000560" right="00000562" forward="00000551"/>
+    <img id="00000562" src="00000562.jpg"
+      left="00000561" right="00000560"/>
+    <img id="00000571" src="00000571.jpg"
+      left="00000573" right="00000573" forward="000004c0"/>
+    <img id="00000573" src="00000573.jpg"
+      left="00000571" right="00000571"/>
+  </body>
+</cml_gometz>
