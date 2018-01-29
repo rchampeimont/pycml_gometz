@@ -45,7 +45,7 @@ def make_xhtml_begin(title):
 """ % escape(title)
 
 def make_xhtml_end():
-    return u"""<p class="publicdomain">Les photos et le programme qui a servi a générer cette page sont dans le domaine public. Vous pouvez <a href="https://github.com/almacha/pycml_gometz">consulter le code source du programme</a>.</p>\n""" \
+    return u"""<p class="publicdomain">Les photos et le programme qui a servi a générer cette page sont dans le domaine public. Vous pouvez <a href="https://github.com/raphaelchampeimont/pycml_gometz">consulter le code source du programme</a>.</p>\n""" \
     + ("""<pre>%s</pre>\n""" % u"""$Id: pycml_gometz.py 124 2008-12-17 10:49:51Z almacha $""") \
     + """</body>
 </html>
