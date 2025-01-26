@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # $Id: pycml_gometz.py 124 2008-12-17 10:49:51Z almacha $
 
-# I, Raphael Champeimont, the author of this work,
+# I, River Champeimont, the author of this work,
 # hereby release it into the public domain.
 # This applies worldwide.
 # 
@@ -45,7 +45,7 @@ def make_xhtml_begin(title):
 """ % escape(title)
 
 def make_xhtml_end():
-    return u"""<p class="publicdomain">Les photos et le programme qui a servi a générer cette page sont dans le domaine public. Vous pouvez <a href="https://github.com/raphaelchampeimont/pycml_gometz">consulter le code source du programme</a>.</p>\n""" \
+    return u"""<p class="publicdomain">Les photos et le programme qui a servi a générer cette page sont dans le domaine public. Vous pouvez <a href="https://github.com/rchampeimont/pycml_gometz">consulter le code source du programme</a>.</p>\n""" \
     + ("""<pre>%s</pre>\n""" % u"""$Id: pycml_gometz.py 124 2008-12-17 10:49:51Z almacha $""") \
     + """</body>
 </html>
